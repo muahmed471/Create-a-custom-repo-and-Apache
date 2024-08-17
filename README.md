@@ -100,7 +100,9 @@ vi index.html
 cat /var/www/html/index.html
 
 cd /etc/httpd/conf
+
 vi httpd.conf
+
 <VirtualHost *:80>
 ServerRoot "/etc/httpd"
 ServerAdmin root@localhost
